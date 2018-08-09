@@ -21,7 +21,7 @@ class String
         array.delete(w)
       end
     end
-  array
+  array.count
   end
 
-end 
+end
