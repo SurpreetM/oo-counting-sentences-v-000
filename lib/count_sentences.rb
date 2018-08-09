@@ -23,3 +23,5 @@ class String
     end
   array
   end
+
+end 
