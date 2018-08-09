@@ -7,14 +7,19 @@ class String
   end
 
   def question?
-
+    self.end_with? ("?")
   end
 
   def exclamation?
-
+    self.end_with? ("!")
   end
 
   def count_sentences
-
-  end
+    array = self.split(/\.|\?|\!/)
+    array.each do |w|
+      if w.length < 2
+        #delete
+      end
+    end
+  array
 end
