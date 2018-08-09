@@ -18,7 +18,7 @@ class String
     array = self.split(/\.|\?|\!/)
     array.each do |w|
       if w.length < 2
-        #delete
+        array.delete(w)
       end
     end
   array
